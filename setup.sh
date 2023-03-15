@@ -6,6 +6,12 @@ sudo apt install vim
 sudo apt install git
 sudo snap install notepad-plus-plus
 
+#install python3.11
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.11
+
 # create folder structure
 mkdir -p work
 
