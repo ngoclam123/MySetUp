@@ -5,6 +5,10 @@ sudo apt-get update
 sudo apt install vim
 sudo apt install git
 sudo snap install notepad-plus-plus
+#install stickny note
+sudo add-apt-repository ppa:umang/indicator-stickynotes
+sudo apt-get update
+sudo apt-get install indicator-stickynotes
 
 #install python3.11
 sudo apt install software-properties-common
